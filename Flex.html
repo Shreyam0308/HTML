@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .box1 , .box2 ,.box3 ,.box4{
+            width: 200px;
+            height: 200px;
+            background-color: rebeccapurple;
+        }
+        .box2{
+            background-color: aqua;
+        }
+        .box3{
+            background-color: violet;
+        }
+        .box4{
+            background-color: brown;
+        }
+        .main{
+         width: 98%;   
+         height: 500px;
+         border: 5px solid indianred;
+         display: flex;
+         /* flex-direction: column; */
+         /* flex-direction: row; */
+         /* flex-direction: row-reverse; */
+         /* flex-direction: column-reverse; */
+         /* justify-content: space-around; */
+         /* justify-content: space-between; */
+         /* justify-content: space-evenly; */
+         /* align-items: last baseline; */
+         align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box1"><B>Box1</B></div>
+        <div class="box2"><B>Box2</B></div>
+        <div class="box3"><B>Box3</B></div>
+        <div class="box4"><B>Box4</B></div>
+    </div>
+</body>
+</html>

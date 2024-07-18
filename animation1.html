@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation bird</title>
+    <style>
+        body{
+            background-image: url('birdsky.gif');
+            
+        }
+        img{
+            width: 150px;
+            height: 150px;
+            animation-name: aniBird;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        @keyframes aniBird {
+            0%{
+                bottom: 0;
+                left:0;
+            }
+            10%{
+                left: 150px;
+                bottom: 70px;
+            }
+            20%{
+                left: 300px;
+                bottom: 140px;
+            }
+            30%{
+                left: 450px;
+                bottom: 210px;
+            }
+            40%{
+                left: 600px;
+                bottom: 280px;
+            }
+            50%{
+                left: 750px;
+                bottom: 350px;
+            }
+            60%{
+                left: 900px;
+                bottom: 420px;
+            }
+            70%{
+                left: 1050px;
+                bottom: 490px;
+            }
+            80%{
+                left: 1200px;
+                bottom: 560px;
+            }
+            90%{
+                left: 1350px;
+                bottom: 630px;
+            }
+            100%{
+                left: 1600px;
+                bottom: 700px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="bird_ani.gif" alt="">
+</body>
+</html>

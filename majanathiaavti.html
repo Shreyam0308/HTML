@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            width: 100%;
+            height: 80px;
+            background-color: gold;
+            padding: 20px;
+            margin: 0;
+        }
+
+        ul {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            list-style-type:none;
+            background-color: rgb(66, 65, 65);
+            overflow: hidden;
+            /* border: 5px solid red; */
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            padding: 20px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .drpbtn:hover .drplist {
+            /* background-color: gold; */
+            display: block;
+        }
+
+        .drplist{
+            display: none;
+            position: absolute;
+            background-color: grey;
+            width: 100px;
+            z-index: 1;
+            
+        }
+        .drplist a:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Royal Techno Soft</h1>
+        <ul>
+            <li class="drpbtn"><a href="">Languages</a>
+                <div class="drplist">
+                    <a href="c.html">C</a>
+                    <a href="c++.html">C++</a>
+                    <a href="html.html">HTML</a>
+                    <a href="javascript.html">Javascipt</a>
+                </div>
+            </li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">About Us</a></li>
+        </ul>
+    </div>
+    <marquee behavior="100px" direction="right"><img src="bird_ani.gif" alt=""></marquee>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus inventore ex atque, sint rerum quos sed. Dolores aliquam repellendus numquam assumenda similique explicabo voluptate tenetur repellat minima distinctio molestias quam, cum rem mollitia, pariatur sint nam, magnam commodi dolorem iure atque rerum deserunt eligendi voluptas. Praesentium suscipit magnam ea Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis porro atque voluptates reprehenderit alias aspernatur amet corporis quaerat fugit officia, consectetur odit ut dignissimos tempora quos? Explicabo, voluptates! Dolorem tempore unde dolore necessitatibus enim labore cumque asperiores itaque fugiat error et, officiis dolorum voluptate quidem saepe, accusantium omnis. Dolorum, dolorem obcaecati molestias labore ratione nemo. Quis ipsa temporibus, asperiores optio, voluptas iure repudiandae mollitia modi, voluptatum illum autem praesentium assumenda odio distinctio eum tenetur perferendis molestias magni exercitationem. Facilis reiciendis aperiam quam minima at tenetur, neque obcaecati vitae fuga maiores facere necessitatibus, culpa perferendis minus cumque asperiores, provident totam quo.</p>
+</body>
+</html>

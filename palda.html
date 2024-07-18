@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ati sunbar</title>
+    <style>
+        .item{
+            background-image: url('Taj-Mahal-Agra-India.webp');
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            position: relative;
+        }
+        .item::after{
+            content: '';
+            position: absolute;
+            background-color: rgba(165, 42, 42, 0.678);
+            height: 150px;
+            width: 300px;
+            bottom: 0;
+            transition: 3s;
+        }
+        .item::before{
+            content: '';
+            position: absolute;
+            background-color: rgba(165, 42, 42, 0.678);
+            height: 150px;
+            width: 300px;
+            transition: 3s;
+        }
+        .item:hover::after{
+            height: 0px;
+        }
+        .item:hover::before{
+            height: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="item"></div>
+</body>
+</html>
